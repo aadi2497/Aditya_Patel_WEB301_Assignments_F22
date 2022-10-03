@@ -6,6 +6,7 @@ img{
     width: 1080px;
     height: auto;
 }
+
 /* Portrait */
 @media only screen 
   and (min-device-width: 320px) 
