@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Bootstrap to Style Each Element">
+  <meta name="author" content="Aditya Patel" />
+  <title>BOORSTRAP FORM</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+  <header>
+    <!-- Nav goes here -->
+  </header>
+  <main>
+    <main>
+      <form action="Thankyou.html" method="GET">
+        <h1>grand list of local businesses</h1>
+        <fieldset>
+           
+            <legend> <h4>1</h4> Business Info </legend>
+
+            <input type="text" name="fname" placeholder="Your Full Name *" required />
+            <input type="email" name="email" placeholder="Your Email*" required />
+            <input type="text" name="bname" placeholder="Enter Your Businesses Name*" required />
+            <input type="number" name="postalcode" placeholder="Your Postal Code.*" required />
+            <input type="number" name="mobilenumber" min="10" max="10" placeholder="Home Phone Number.*" required />
+
+            <input type="radio"  name="profit" value="profit">
+            <label for="profit">For-Profit Business</label>
+            <input type="radio"  name="non-profit" value="non-profit">
+            <label for="non-profit">Non-Profit Business</label>
+
+            <legend> <h4>4</h4> Select Program </legend>
+
+            <select name="program" required>
+                <option value="Art Program">Art Program</option>
+                <option value="Music Program">Music Program</option>
+                <option value="Dance Program">Dance Program</option>
+                <option value="Outdoor Program">Outdoor Program</option>
+                <option value="Bike Safety ">Bike Safety </option>
+                <option value="Sports Program">Sports Program</option>
+            </select>
+
+        </fieldset>
+
+        <input type="submit" value="Apply" />                
+
+    </form>
+  </main>
+  </main>
+  <footer>
+    <!-- Github link goes here -->
+  </footer>
+  <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
