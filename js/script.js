@@ -18,6 +18,8 @@
         
 
         // then open it by using the show() method
+        alert("Name must be filled out");
+        return false;
 
       }
 
